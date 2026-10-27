@@ -1,0 +1,33 @@
+{
+  "ItemKNN": {
+    "neighbors": 150,
+    "shrinkage": 10
+  },
+  "iALS": {
+    "factors": 64,
+    "regularization": 50.0,
+    "alpha": 20.0,
+    "iterations": 12,
+    "seed": 42
+  },
+  "EASE": {
+    "regularization": 50.0
+  },
+  "FM": {
+    "factors": 32,
+    "epochs": 16,
+    "learning_rate": 0.01,
+    "weight_decay": 1e-05,
+    "negatives": 3,
+    "batch_size": 4096,
+    "seed": 42
+  },
+  "CustomALS": {
+    "factors": 64,
+    "regularization": 50.0,
+    "alpha": 20.0,
+    "iterations": 12,
+    "seed": 42,
+    "half_life_days": 180.0
+  }
+}

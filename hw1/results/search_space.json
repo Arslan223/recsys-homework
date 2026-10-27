@@ -1,0 +1,117 @@
+{
+  "ItemKNN": [
+    {
+      "neighbors": 50,
+      "shrinkage": 10
+    },
+    {
+      "neighbors": 50,
+      "shrinkage": 50
+    },
+    {
+      "neighbors": 150,
+      "shrinkage": 10
+    },
+    {
+      "neighbors": 150,
+      "shrinkage": 50
+    }
+  ],
+  "iALS": [
+    {
+      "factors": 32,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "regularization": 50.0,
+      "alpha": 20.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    {
+      "factors": 64,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    {
+      "factors": 64,
+      "regularization": 50.0,
+      "alpha": 20.0,
+      "iterations": 12,
+      "seed": 42
+    }
+  ],
+  "EASE": [
+    {
+      "regularization": 50.0
+    },
+    {
+      "regularization": 200.0
+    },
+    {
+      "regularization": 1000.0
+    }
+  ],
+  "FM": [
+    {
+      "factors": 32,
+      "epochs": 8,
+      "learning_rate": 0.003,
+      "weight_decay": 1e-05,
+      "negatives": 3,
+      "batch_size": 4096,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "epochs": 8,
+      "learning_rate": 0.01,
+      "weight_decay": 1e-05,
+      "negatives": 3,
+      "batch_size": 4096,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "epochs": 16,
+      "learning_rate": 0.003,
+      "weight_decay": 1e-05,
+      "negatives": 3,
+      "batch_size": 4096,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "epochs": 16,
+      "learning_rate": 0.01,
+      "weight_decay": 1e-05,
+      "negatives": 3,
+      "batch_size": 4096,
+      "seed": 42
+    }
+  ],
+  "CustomALS": [
+    {
+      "factors": 64,
+      "regularization": 50.0,
+      "alpha": 20.0,
+      "iterations": 12,
+      "seed": 42,
+      "half_life_days": 180.0
+    },
+    {
+      "factors": 64,
+      "regularization": 50.0,
+      "alpha": 20.0,
+      "iterations": 12,
+      "seed": 42,
+      "half_life_days": 730.0
+    }
+  ]
+}

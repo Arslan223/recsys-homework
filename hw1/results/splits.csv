@@ -1,0 +1,4 @@
+split,interactions,active_users,active_items,relevant_interactions,users_with_relevance,cohort_users_without_relevance
+train,127983,23745,2999,96467,22914,831
+validation,5720,2713,1534,4393,2218,21527
+test,1476,852,784,1143,691,23054

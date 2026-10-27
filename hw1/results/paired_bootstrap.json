@@ -1,0 +1,14 @@
+{
+  "FM_minus_ID_only": {
+    "mean_difference": -0.022755097667852563,
+    "ci_low": -0.03601317451055935,
+    "ci_high": -0.010490510058826653,
+    "users": 691
+  },
+  "CustomALS_minus_iALS": {
+    "mean_difference": 0.0026473866610365196,
+    "ci_low": -0.006338623307594609,
+    "ci_high": 0.011778188020610333,
+    "users": 691
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "raw_rows": 1324753,
+  "raw_users": 826767,
+  "raw_items": 50210,
+  "missing": {
+    "reviewerID": 0,
+    "asin": 0,
+    "rating": 0,
+    "timestamp": 0
+  },
+  "exact_duplicates": 0,
+  "repeated_user_item": 0,
+  "clean_rows": 1324753,
+  "selected_rows": 135179,
+  "users": 23745,
+  "items": 2999,
+  "train_rows": 127983,
+  "validation_rows": 5720,
+  "test_rows": 1476,
+  "sparsity": 0.998101718611756,
+  "first_timestamp": 939859200,
+  "last_timestamp": 1405468800
+}
